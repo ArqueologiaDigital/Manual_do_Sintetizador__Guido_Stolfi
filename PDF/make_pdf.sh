@@ -6,7 +6,7 @@ do
 done
 
 echo "And now generating the lowres PDF..."
-convert ../originais/C*.lowres.jpg ../originais/P*.lowres.jpg EXTRA*.lowres.jpg LadoB*.lowres.jpg Anexos*.lowres.jpg Manual_do_Sintetizador__Guido_Stolfi.pdf
+convert ../originais/C*.lowres.jpg ../originais/P*.lowres.jpg ../originais/EXTRA*.lowres.jpg ../originais/LadoB*.lowres.jpg ../originais/Anexos*.lowres.jpg Manual_do_Sintetizador__Guido_Stolfi.pdf
 rm ../originais/*.lowres.jpg -f
 
 echo "done."
